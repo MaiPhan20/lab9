@@ -8,7 +8,7 @@ int main() {
    ptr = &arr[0];
    printf("\nNhap kich co mang: ");
    scanf("%d", &size);
-   printf("\Nhap %d so nguyen vao trong mang: \n", size);
+   printf("\Nhap %d phan tu vao trong mang: \n", size);
    for (i = 0; i < size; i++) {
       scanf("%d", ptr);
       ptr++;
